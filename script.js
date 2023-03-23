@@ -1,7 +1,7 @@
 function calculateMinCost() {
   //your code here
 	var inputData = document.querySelector("input").value;
-	var newArr = inputData.split(",").map(Number);
+	var inputArr = inputData.split(",").map(Number);
 	//alert(typeof newArr);
 	var ans = 0;
 	while (inputArr.length > 1) {
